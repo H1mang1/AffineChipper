@@ -1,0 +1,10 @@
+DESCRIPTION:
+
+We are encrypting the plaintext that we entered through the keyboard by using the formula c = (p*k1)+k2)%26.Here p is plaintext character and k1= 7 and k2=2.For example the plaintext entered is “hello”. This is how it is encrypted:
+p(7) – h >>((7*7)+2)mod 26 = 25 >>>(z)
+p(4) – e >> ((4*7)+2)mod 26 = 4 >>>(e)
+p(11) – l >>((11*7)+2)mod 26 = 1 >>>(b)
+p(11) – l >>((11*7)+2)mod 26 = 1 >>>(b)
+p(14) – o >>((14*7)+2)mod 26 = 22 >>>(w)
+Now when we have to decrypt the text we decrypt it by reversing of what we did earlier. We use the formula p = ((c*15)-k2)%26. Here 15 is the inverse of 7 mod 26.
+The  -‘a’ and +‘a’ in p and c variables is used to put it within the range of 0-25. 
