@@ -1,6 +1,6 @@
 # **AffineChipper**
 We are deciphering a plane text.
-It is a college project.
+It was a college project.
 
 # **What is Affine cipher?**
 
